@@ -31,7 +31,8 @@ import java.util.Scanner;
                 input = scn.nextLine();
                 data = mhs.get(input);
                 if (data != null) {
-                    System.out.println("Data Mahasiswa : " + data.nama + ", Kelas : " + data.kelas + ", Mata Kuliah Praktikum : " + data.matkulPraktikum + ", NIM : " + data.nim);
+                    System.out.println("Data Mahasiswa : ");
+                    System.out.println("Nama \t\t\t: " + data.nama + "\nKelas \t\t\t: " + data.kelas + "\nMK. Praktikum\t: " + data.matkulPraktikum + "\nNIM \t\t\t: " + data.nim);
                 } else {
                     System.out.println("Data not found");
                 }
