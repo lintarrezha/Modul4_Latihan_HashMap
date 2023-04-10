@@ -23,9 +23,9 @@ import java.util.Scanner;
                 String input;
                 Mahasiswa data;
 
-                mhs.put("0001", new Mahasiswa("Lintar", "4K", "Struktur Data", 379));
-                mhs.put("0002", new Mahasiswa("Rezha", "4K", "Pemrograman Lanjut", 666));
-                mhs.put("0003", new Mahasiswa("Candra", "4K", "Pemrograman Berorientasi Object", 999));
+                mhs.put("01", new Mahasiswa("Lintar", "4K", "Struktur Data", 379));
+                mhs.put("02", new Mahasiswa("Rezha", "4K", "Pemrograman Lanjut", 666));
+                mhs.put("03", new Mahasiswa("Candra", "4K", "Pemrograman Berorientasi Object", 999));
 
                 System.out.print("Input ID: ");
                 input = scn.nextLine();
